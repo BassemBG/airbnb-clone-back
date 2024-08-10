@@ -2,7 +2,7 @@ logging:
   level:
     ROOT: info
     org.hibernate.SQL: INFO
-    fr.codecake.airbnbcloneback: INFO
+    tn.BassemBG.airbnb_clone_back: INFO
 
 spring:
   datasource:

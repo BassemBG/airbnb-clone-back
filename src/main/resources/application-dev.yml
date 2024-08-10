@@ -1,3 +1,13 @@
+
 spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/codecake
+    username: postgres
+    password: SB2024
+  jpa:
+    properties:
+      hibernate:
+        default_schema: airbnb_clone
   liquibase:
     contexts: dev
+

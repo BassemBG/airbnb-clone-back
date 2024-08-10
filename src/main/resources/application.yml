@@ -2,7 +2,7 @@ logging:
   level:
     ROOT: INFO
     org.hibernate.SQL: DEBUG
-    fr.codecake.airbnbcloneback: DEBUG
+    tn.BassemBG.airbnb_clone_back: DEBUG
 
 spring:
   profiles:
@@ -37,7 +37,7 @@ spring:
       max-file-size: 100MB
       max-request-size: 100MB
 server:
-  port: 8080
+  port: 8050
 
 #okta:
 #  oauth2:

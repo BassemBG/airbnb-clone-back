@@ -1,0 +1,12 @@
+services:
+  postgres:
+    image: 'postgres:latest'
+    volumes:
+      - ~/volumes/airbnb_clone/postgresql/:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_PASSWORD=codecake
+      - POSTGRES_USER=codecake
+      - POSTGRES_DB=codecake
+      - POSTGRES_URL=localhost
+    ports:
+      - 127.0.0.1:5432:5432
