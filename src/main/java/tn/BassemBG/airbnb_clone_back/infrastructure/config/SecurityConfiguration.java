@@ -35,6 +35,8 @@ public class SecurityConfiguration {
         return http.build();
     }
 
+    //we need this bean when the user logs in, we need to pass to spring security the role that the user has
+    //when later we will use the method annotation (@enableMethodSecurity) to check if spring security has a specific role, spring security will be able to know
     @Bean
     public GrantedAuthoritiesMapper userAuthoritiesMapper() {
         return authorities -> {
